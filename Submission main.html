@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabook</title>
+    <link rel="stylesheet" href="./Assignment 30-10-24.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="icon" src="Vector.png">
+
+</head>
+<style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    display: flex;
+    font-size: 24px;
+    font-family: volkhov;
+    font-weight: bold;
+
+}
+#logoImage {
+    width: 19px;
+    height: 19px;
+}
+#menu {
+    display: flex;
+align-items: center;
+gap: 10px;
+}
+#innerMenu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: poppins;
+
+
+}
+#innerMenu a {
+    text-decoration: none;
+}
+#loginSignUp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+
+}
+#loginSignUp a {
+    text-decoration: none;
+}
+#loginSignUp a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+#login {
+    color: FA7436;
+}
+#signUp {
+    color: ffffff;
+    width: 160px;
+height: 50px;
+background-color: FA7436;
+text-align: center;
+}
+#innerMenu a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+#navMenu {
+    display: flex;
+}
+#navSection {
+    padding: 20px;
+}
+#getStarted {
+            height: 486px;
+            width: 521px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        #discoverNow {
+            position: absolute;
+            margin-top: 212px;
+            width: 178px;
+            height: 60px;
+            text-align: center;
+            color: rgba(250, 116, 54, 1);
+            font-family: poppins;
+            font-weight: medium;
+            font-size: 18px;
+            border: 1px solid rgba(250, 116, 54, 1);
+            border-radius: 5px;
+        }
+        #getStarted h1 {
+            font-size: 64px;
+            font-family: Volkhov;
+            font-weight: bold;
+
+        }
+        #getStarted p {
+            font-family: poppins;
+            font-size: 20px;
+        }
+        #bestTourAwards {
+            display: flex;
+            width: 150px;
+            height: 66px;
+            background-color: white;
+            position: absolute;
+            margin-top: 84px;
+            margin-left: 210px;
+            z-index: 30;
+            border-radius: 5px;
+            align-items: center;
+            gap: 20px;
+        }
+        #customerReviewed27KText {
+            display: flex;
+            flex-direction: column;
+            width: 192px;
+            height: 68px;
+            margin-top: 500px;
+            background-color: white;
+            z-index: 40;
+            align-items: center;
+            gap: 0px;
+            border-radius: 5px;
+        }
+        #customerReviewed {
+            display: flex;
+        }
+        #exploreHeadingText {
+            display: flex;
+            flex-direction: column;
+        }
+        #explore {
+            display: flex;
+            width: 173px;
+            height: 74px;
+            margin-top: 220px;
+            z-index: 60;
+            background-color: white;
+            border-radius: 5px;
+            gap: 10px;
+
+        }
+        #bestTourAwardsText {
+            font-size: 16;
+            font-family: poppins;
+            font-weight: medium;
+        }
+        #image {
+            position: relative;
+            width: 500px;
+            height: 530px;
+            display: flex;
+
+        }
+        #semiCircleImage {
+            width: 500px;
+            height: 250px;
+            background-color: rgba(250, 116, 54, 1);
+            border-top-left-radius: 100;
+            border-top-right-radius: 100;
+            border-bottom-left-radius: 500px;
+            border-bottom-right-radius: 500px;
+            position: absolute;
+            z-index: 10;
+            margin-top: 300px;
+        }
+        #manImage {
+            position: relative;
+            z-index: 20;
+        }
+        #getStartedImage {
+            display: flex;
+            justify-content: space-around;
+        }
+        #content {
+            width: 841px;
+            height: 124px;
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 20px;
+
+        }
+        .itemChevron {
+            display: flex;
+            padding-bottom: 20px;
+
+        }
+        #exploreNow {
+            width: 165px;
+            height: 60px;
+            color: white;
+            background-color: rgba(250, 116, 54, 1);
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #overall {
+            display: flex;
+            justify-content: center;
+        }
+        #thingsYouNeed {
+            height: 724px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background: "./Images/BG things you need.png";
+            position: relative;
+            margin-top: 40px;
+        }
+        #innerContainer {
+            width: 1170px;
+            height: 484px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        #text {
+            width: 521px;
+            height: 142px;
+        }
+        #aircrafts {
+            position: absolute;
+            width: 179.9px;
+            height: 130.73px;
+            margin-left: 800px;
+
+        }
+#thingsYouNeedToDo-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    gap: 30px;
+}
+#thingsYouNeedToDo-cards .card {
+    width: 370px;
+    height: 278px;
+    margin-left: 30px;
+
+}
+#thingsYouNeedToDo-cards .card h3 {
+    margin-top: 20px;
+}
+#thingsYouNeedToDo-cards .card p {
+    margin-top: 20px;
+}
+#secondLine #imageCountry #image {
+    height: 10px;
+    width: 10px;
+}
+#firstLine {
+    display: flex;
+}
+#starRating {
+    display: flex;
+}
+#secondLine {
+    display: flex;
+}
+#imageCountry {
+    display: flex;
+}
+#priceDiscount {
+    display: flex;
+    gap: 30px;
+}
+#deals-cards .card {
+    width: 272px;
+    height: 426px;
+}
+#deals-cards {
+    display: flex;
+    width: 1170px;
+    height: 426px;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+#deals {
+    width: 1920px;
+    height: 960px;
+}
+#dealsInnerContainer {
+    width: 1170px;
+    height: 720px;
+}
+#dealsText {
+    width: 675px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+    </style>
+    </style>
+  </head>
+  <body>
+       <section id="navSection">
+      <div id="navMenu">
+        <div id="menu">
+          <div id="logo">
+            <p>Trabook</p>
+          </div>
+            <div id="logoImage">
+            <img src="Vector.png" />
+        </div>
+          </div>
+          <div id="innerMenu">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#destination">Destination</a>
+            <a href="#tour">Tour</a>
+            <a href="#blog">Blog</a>
+          </div>
+        
+        <div id="loginSignUp">
+        <div id="login">
+          <a href="#login">Login</a>
+        </div>
+        <div id="signUp">
+          <a href="#signup">Sign Up</a>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    </section>
+    <section id="getStartedImage">
+        <div id="getStarted" class="=container">
+          <h1>
+            Get started your exciting <span id="journey" style="color: rgba(250, 116, 54, 1);">journey</span> with us
+          </h1>
+          <p>
+            A Team of experienced tourism professionals will provide you with the
+            best advice and tips for your desire place.
+          </p>
+          <div id="discoverNow">
+            <p id="discoverNow">Discover Now</p>
+          </div>
+        </div>
+        <div id="image" class="container">
+          <div id="manImage">
+            <img src="tourist-with-thumb-up__1_-removebg 1.png">
+          </div>
+          <div id="semiCircleImage">
+          </div>
+          </div>
+          <div id="bestTourAwards">
+            <div id="bestTourAwardsImage">
+              <img src="trophy-removebg-preview 1.png">
+            </div>
+            <div id="bestTourAwardsText">
+              <p>Best Tour Awards</p>
+          </div>
+        <div id="customerReviewed">
+          <div id="customerReviewedImage">
+            <img src="star 1.png">
+          </div>
+          <div id="customerReviewed27KText">
+          <div id="customerReviewed27K">
+            <p>27K</p>
+          </div>
+          <div id="customerReviewedText">
+            <p>Customer Reviewed</p>
+          </div>
+        </div>
+          </div>
+          <div id="explore">
+            <div id="exploreImage">
+              <img src="google-maps 1.png">
+            </div>
+            <div id="exploreHeadingText">
+            <div id="exploreHeading">
+              <p>Explore</p>
+            </div>
+            <div id="exploreText"><p>Every cornar of the world with us</p></div>
+        </div>
+          </div>
+        </div>
+        </div>
+      </div>
+        </div>
+      </section>
+      <section id="overall">
+      <section id="content" class="container">
+        <div id="contentCard">
+
+        <div class="itemChevron">
+            <div id="location">
+                <p>Location</p>
+            </div>
+            <div id="chevron">
+                <img src="Vector chevron.png">
+            </div>
+            </div>
+            <div id="Text">
+                <p>Where are you going</p>
+            </div>
+    
+        </div>
+
+        <div id="contentCard">
+
+        <div  class="itemChevron">
+            <div id="date">
+                <p>Date</p>
+            </div>
+            <div id="chevron">
+                <img src="Vector chevron.png">
+            </div>
+            </div>
+            <div id="Text">
+                <p>When you will go</p>
+            </div>
+    
+        </div>
+
+
+        <div id="contentCard">
+        <div class="itemChevron">
+            <div id="guest">
+                <p>Guest</p>
+            </div>
+            <div id="chevron">
+                <img src="Vector chevron.png">
+            </div>
+            </div>
+            <div id="Text">
+                <p>Number of guest</p>
+            </div>
+        </div>
+        </div>
+        <div id="exploreNow">
+            <p>Explore Now</p>
+        </div>
+    </section>
+</section>
+
+        <section id="thingsYouNeed" class="section">
+            <div id="innerContainer">
+            <div id="text">
+            <h2>Things you need <span style="color: rgba(250, 116, 54, 1);">to do</span></h2>
+       <p>We ensure that you'll embark on a perfectly planned safe vacation at a price you can afford.</p>
+        </div>
+        <div id="aircrafts">
+            <img src="Element aircrafts.png">
+        </div>
+        <div id="thingsYouNeedToDo-cards">
+            <div id="signUp" class="card">
+                <img src="signUp things you need to do.png">
+                <h3>Sign up</h3>
+                <p>Completes all the work associated withplanning and processing</p>
+            </div>
+            <div id="worthOfMoney" class="card">
+                <img src="Vector worth of money.png">
+                <h3>Worth of Money</h3>
+                <p>After successful access then book from exclusive deals&pricing</p>
+            </div>
+            <div id="excitingTravel" class="card">
+                <img src="Group exciting travel.png">
+                <h3>Exciting Travel</h3>
+                <p>Start and explore a wide range of exciting travel experience.</p>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <section id="deals" class="section">
+            <div id="dealsInnerContainer">
+            <div id="dealsText">
+            <h2>Exclusive <span style="color: rgba(250, 116, 54, 1);">deals & discounts</span></h2>
+       <p>Discover our fantastic early booking discounts & start planning your journey</p>
+        </div>
+        
+        <div id="deals-cards">
+            <div id="madrid" class="card">
+                <img src="Image madrid.png">
+                <div id="firstLine">
+                <div id="placeName">
+                    <p>Madrid</p>
+                </div>
+                <div id="starRating">
+                    <div id="star">
+                        <img src="star 1.png">
+                    </div>
+                    <div id="rating">
+                        <p>4.8</p>
+                    </div>
+                </div>
+            </div>
+            <div id="secondLine">
+                <div id="imageCountry">
+                    <div id="image">
+                        <img src="google-maps 1.png" styles="width:10px, height:10px">
+                    </div>
+                    <div id="country">
+                        <p>Spain</p> 
+                    </div>
+                </div>
+                <div id="priceDiscount">
+                    <div id="price">
+<p>$ 950</p>>   
+                 </div>
+                    <div id="discountedPrice">
+                        <p>$ 850</p>
+                    </div>
+                </div>
+            </div>
+                 </div>
+                 <div id="firenze" class="card">
+                    <img src="Image madrid.png">
+                    <div id="firstLine">
+                    <div id="placeName">
+                        <p>Firenze</p>
+                    </div>
+                    <div id="starRating">
+                        <div id="star">
+                            <img src="star 1.png">
+                        </div>
+                        <div id="rating">
+                            <p>4.5</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="secondLine">
+                    <div id="imageCountry">
+                        <div id="image">
+                            <img src="google-maps 1.png" styles="width:10px, height:10px">
+                        </div>
+                        <div id="country">
+                            <p>Italy</p> 
+                        </div>
+                    </div>
+                    <div id="priceDiscount">
+                        <div id="price">
+    <p>$ 850</p>>   
+                     </div>
+                        <div id="discountedPrice">
+                            <p>$ 750</p>
+                        </div>
+                    </div>
+                </div>
+                     </div>
+                     <div id="london" class="card">
+                        <img src="Image london,uk.png">
+                        <div id="firstLine">
+                        <div id="placeName">
+                            <p>London</p>
+                        </div>
+                        <div id="starRating">
+                            <div id="star">
+                                <img src="star 1.png">
+                            </div>
+                            <div id="rating">
+                                <p>4.8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="secondLine">
+                        <div id="imageCountry">
+                            <div id="image">
+                                <img src="google-maps 1.png" styles="width:10px, height:10px">
+                            </div>
+                            <div id="country">
+                                <p>UK</p> 
+                            </div>
+                        </div>
+                        <div id="priceDiscount">
+                            <div id="price">
+        <p>$ 950</p>>   
+                         </div>
+                            <div id="discountedPrice">
+                                <p>$ 850</p>
+                            </div>
+                        </div>
+                    </div>
+                         </div>
+                         <div id="paris" class="card">
+                            <img src="Image paris.png">
+                            <div id="firstLine">
+                            <div id="placeName">
+                                <p>Paris</p>
+                            </div>
+                            <div id="starRating">
+                                <div id="star">
+                                    <img src="star 1.png">
+                                </div>
+                                <div id="rating">
+                                    <p>4.4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="secondLine">
+                            <div id="imageCountry">
+                                <div id="image">
+                                    <img src="google-maps 1.png" styles="width:10px, height:10px">
+                                </div>
+                                <div id="country">
+                                    <p>France</p> 
+                                </div>
+                            </div>
+                            <div id="priceDiscount">
+                                <div id="price">
+            <p>$ 699</p>>   
+                             </div>
+                                <div id="discountedPrice">
+                                    <p>$ 599</p>
+                                </div>
+                            </div>
+                        </div>
+                             </div>
+                         
+    </div>
+        </section>
+</body>

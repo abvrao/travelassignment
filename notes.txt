@@ -1,0 +1,12 @@
+steps for github
+
+we need to create the repo in github website
+
+we have to come to vs code do the folliwng steps
+
+git init -> will initialize the git repo
+git status -> 
+git add 
+git commit -m "commit msg"
+git remote add origin https://github.com/abvrao/travelassignment.git
+git push
