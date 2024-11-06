@@ -1,0 +1,970 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#outer {
+  width: 1170px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+#inner {
+  height: 50px;
+  width: 1170px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+#logoImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  font-size: 24px;
+  font-family: volkhov;
+  font-weight: bold;
+  color: 222222;
+}
+#image1 {
+  width: 19px;
+  height: 19px;
+  color: 666666;
+}
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#loginSignUp {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+#login {
+  color: rgba(250, 116, 54, 1);
+}
+#signUp {
+  color: #ffffff;
+  background-color: #fa7436;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 1920px;
+  height: 999px;
+}
+
+#getStarted {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+#getStartedLeft {
+  height: 486px;
+  width: 521px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fefcfb;
+}
+#discoverNow {
+  position: absolute;
+  display: flex;
+  margin-top: 112px;
+  width: 178px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgba(250, 116, 54, 1);
+  font-family: poppins;
+  font-weight: medium;
+  font-size: 18px;
+  border: 1px solid rgba(250, 116, 54, 1);
+  border-radius: 5px;
+}
+#getStartedLeft h1 {
+  font-size: 64px;
+  font-family: Volkhov;
+  font-weight: bold;
+}
+#getStartedLeft p {
+  font-family: poppins;
+  font-size: 20px;
+}
+#getStartedRight {
+  position: relative;
+  background-image: url("./Images/Element hero aircrafts.png");
+  background-repeat: no-repeat;
+}
+
+#bestTourAwards {
+  display: flex;
+  width: 150px;
+  height: 66px;
+  background-color: white;
+  position: absolute;
+  left: -70px;
+  top: 80px;
+  z-index: 30;
+  border-radius: 5px;
+  align-items: center;
+  gap: 20px;
+}
+#exploreHeadingText {
+  display: flex;
+  flex-direction: column;
+  top: 230px;
+  left: 900px;
+}
+#exploreText {
+  font-size: 16px;
+  font: poppins;
+  font-weight: regular;
+}
+#exploreHeading {
+  font: poppins;
+  font-weight: medium;
+  font-size: 18px;
+}
+#customerReviewed {
+  display: flex;
+  position: absolute;
+  width: 192px;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  top: 345px;
+  left: -50px;
+  border-radius: 5px;
+  z-index: 40;
+  background-color: white;
+}
+
+#customerReviewed27KText {
+  display: flex;
+  flex-direction: column;
+  z-index: 40;
+  align-items: center;
+  gap: 0px;
+  justify-content: center;
+}
+#customerReviewed img {
+  width: 32px;
+  height: 32px;
+}
+#customerReviewed27K {
+  font: poppins;
+  font-size: 16px;
+  font-weight: medium;
+}
+#customerReviewedText {
+  font: poppins;
+  font-size: 12px;
+}
+
+#explore {
+  position: absolute;
+  display: flex;
+  width: 173px;
+  height: 74px;
+  z-index: 60;
+  background-color: white;
+  border-radius: 5px;
+  top: 200px;
+  left: 300px;
+}
+#exploreHeadingText {
+  display: flex;
+  flex-direction: column;
+}
+#bestTourAwardsText {
+  font-size: 16;
+  font-family: poppins;
+  font-weight: medium;
+}
+#image {
+  position: relative;
+  width: 500px;
+  height: 530px;
+  display: flex;
+}
+#semiCircleImage {
+  width: 500px;
+  height: 250px;
+  background-color: rgba(250, 116, 54, 1);
+  border-top-left-radius: 100;
+  border-top-right-radius: 100;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  position: absolute;
+  z-index: 10;
+  margin-top: 300px;
+}
+#manImage {
+  position: relative;
+  z-index: 20;
+}
+#getStartedRight {
+  display: flex;
+  justify-content: space-around;
+}
+#selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#overall {
+  width: 841px;
+  height: 124px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefcfb;
+}
+#content {
+  width: 793px;
+  height: 60px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.itemChevron {
+  display: flex;
+}
+#contentCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#exploreNow {
+  width: 165px;
+  height: 60px;
+  color: white;
+  background-color: rgba(250, 116, 54, 1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#thingsToDo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 724px;
+  background-color: #f7f8fc;
+  position: relative;
+}
+#aircraftsImage {
+  position: absolute;
+  top: 80px;
+  left: 990px;
+  z-index: 70;
+}
+#thingsToDo #inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 484px;
+  width: 1170px;
+  background-color: #f7f8fc;
+  z-index: 10;
+}
+#cards {
+  display: flex;
+}
+#card1 #card2 #card3 {
+  gap: 30px;
+  width: 370px;
+  height: 278px;
+  background-color: aqua;
+  border-radius: 8px;
+  z-index: 60;
+}
+#thingsToDo #text {
+  width: 521px;
+  height: 142px;
+}
+#deals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  height: 960px;
+  background-color: #fefcfb;
+}
+#deals #inner {
+  width: 1170px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#deals #inner #text {
+  width: 675px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#cards {
+  width: 1170px;
+  height: 426px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#card1 #card2 #card3 #card4 {
+  width: 270px;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefcfb;
+}
+#deals #inner #cards #image {
+  width: 270px;
+  height: 290px;
+}
+#firstLine {
+  display: flex;
+  justify-content: space-between;
+}
+#firstLine #place {
+  font-family: poppins;
+  font-size: 24;
+  font-weight: medium;
+}
+#starRating {
+  display: flex;
+}
+#starRating img {
+  width: 16px;
+  height: 16px;
+}
+#starRating p {
+  font-family: poppins;
+  font-size: 16px;
+}
+#locationCountry img {
+  width: 12.57px;
+  height: 16px;
+}
+#secondLine {
+  display: flex;
+  justify-content: space-between;
+}
+#locationCountry {
+  display: flex;
+  align-items: center;
+}
+#country {
+  font-family: poppins;
+  font-size: 16px;
+}
+#priceDiscount {
+  display: flex;
+  align-items: center;
+}
+#price {
+  font-family: poppins;
+  font-weight: medium;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+#priceDiscount #discount {
+  font-family: poppins;
+  font-weight: medium;
+  font-size: 16px;
+  color: #fa7436;
+}
+#discount {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe7db;
+  width: 52px;
+  height: 28px;
+  border-radius: 8px;
+}
+#bestVacationPlan {
+  width: 1920px;
+  height: 893px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+#bestVacationPlan #inner {
+  width: 1170px;
+  height: 653px;
+  display: flex;
+  flex-direction: column;
+}
+#bestVacationPlan #inner #text {
+  width: 521px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bestVacationPlan #inner #text span {
+  color: #fa7436;
+}
+#bestVacationPlan #inner #text #heading {
+  font-family: volkhov;
+  font-size: 48px;
+  font-weight: bold;
+}
+#bestVacationPlan #inner #text #matter {
+  font-family: poppins;
+  font-size: 18px;
+}
+#trees {
+  width: 105.51px;
+  height: 81px;
+  position: absolute;
+  left: 1200px;
+  top: 100px;
+}
+#sliderBtns {
+  width: 112px;
+  height: 40px;
+  position: absolute;
+  left: 1420px;
+  top: 290px;
+}
+#bestVacationPlan #card1  #image {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+#bestVacationPlan  #card2  #image {
+    width: 369px;
+    height: 327px;
+    border-radius: 16px;
+  }
+  #bestVacationPlan  #card3 #image {
+    width: 369px;
+    height: 327px;
+    border-radius: 16px;
+    
+  }
+#bestVacationPlan #cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#bestVacationPlan #card1 #card2 #card3 {
+  width: 370px;
+  height: 447px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+#bestVacationPlan #firstLine {
+  display: flex;
+  padding: 20px 10px;
+}
+#bestVacationPlan #secondLine {
+  display: flex;
+  padding: 10px 10px;
+}
+#bestVacationPlan #navigatorTrip {
+  display: flex;
+}
+#bestVacationPlan #starRating {
+  display: flex;
+}
+#bestVacationPlan #cityCountry {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: medium;
+}
+#bestVacationPlan #cost {
+    font: 24px;
+    font-family: poppins;
+    color: #FA7436;
+    font-weight: semibold;
+
+}
+#bestVacationPlan #navigator {
+    width: 18.79px;
+    height: 16px;
+    color: #FA7436;
+}
+#bestVacationPlan #star {
+    width: 16px;
+    height: 16px;
+}
+#bestVacationPlan #tripDuration {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: medium;
+}
+#bestVacationPlan #rating {
+    font-size: 16px;
+    font-family: poppins;
+
+}
+#whatPeopleSay {
+    width: 1920px;
+    height: 596px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #F7F8FC;
+}
+#whatPeopleSay #inner {
+    width:1103px;
+    height: 356px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#whatPeopleSay #inner #text {
+    width: 394px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+}
+#whatPeopleSay #inner #text header {
+
+    font-family: volkhov;
+    font-size: 48px;
+    font-weight: bold;
+}
+#whatPeopleSay #inner #text header span {
+    color: #FA7436;
+
+}
+#whatPeopleSay #inner #text p {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: regular;
+
+}
+#whatPeopleSay #slider {
+    width: 112px;
+    height: 40px;
+
+}
+#whatPeopleSay #mainCard {
+    width: 541px;
+    height: 279px;
+    z-index: 40;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#whatPeopleSay #mainCard img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+#whatPeopleSay #mainCard #message {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: medium;
+    padding: 10px 40px 0px 20px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+#whatPeopleSay #mainCard #name {
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: semibold;
+    padding: 20px;
+    position: absolute;
+    z-index: 70;
+    margin-top: 178px;
+
+}
+#whatPeopleSay #mainCard #place {
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: medium;
+    position: absolute;
+    z-index: 70;
+    padding: ;
+    margin-top: 200px;
+    padding: 20px;
+
+}
+#shadowCard {
+    width: 502px;
+    height: 232px;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    background-color: #4E4E73;
+    border-radius: 10px;
+    top: 260px;
+    left: 960px;
+
+}
+#whatPeopleSay #aeroplanes {
+    width: ;
+    height: ;
+    position: absolute;
+}
+#whatPeopleSay #innerCard {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 504px;
+    height: 245px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 70;
+}
+#shadowCard #name {
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: semibold;
+    padding: 20px ;
+    position: absolute;
+    margin-top: 160px;
+    
+
+}
+#shadowCard #place {
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: medium;
+    padding: 20px;
+    position: absolute;
+    margin-top: 190px;
+
+}
+#blog {
+    width: 1920px;
+    height: 805px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEFCFB;
+}
+#blog #text {
+    display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 65px;
+
+}
+#blog #text span {
+color: #FA7436;
+}
+#blog #text header {
+    font-size: 48px;
+    font-family: volkhov;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blog #cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blog #card1 #card2 #card3 #card4 {
+    width: 270px;
+    height: 388px;
+    border-radius: ;
+    display: flex;
+    flex-direction: column;
+
+}
+#blog #card1 img {
+    width: 270px;
+    height: 270px;
+}
+#blog #card2 img {
+    width: 270px;
+    height: 270px;
+}
+#blog #card3 img {
+    width: 270px;
+    height: 270px;
+}
+#blog #card4 img {
+    width: 270px;
+    height: 270px;
+}
+#blog #comment {
+    font-size: 18;
+    font-family: poppins;
+    font-weight: medium;
+
+}
+#blog #date {
+    font-size: 16;
+    font-family: inter;
+    font-weight: regular;
+    padding: ;
+}
+#bindi {
+    width: 54px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer {
+    width: 1920px;
+    height: 898px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    z-index: -20;
+
+}
+#bgOnly {
+    width= ;
+    height: ;
+    background-color: #F7F8FC;
+    z-index: -10;
+}
+#subscribe {
+    width: 1170.25px;
+    height: 416px;
+    background-color: #FA7436;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 16px;
+
+}
+#footer #content {
+    width: 708px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+}
+#treesImage {
+    width: 112.25px;
+    height: 113.12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#circles {
+    width: 361px;
+    height: 480px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+#subscribe #header {
+    font-size: 48px;
+    font-family: volkhov;
+    font-weight: bold;
+    color: white;
+    width: 708px;
+    height: 124px;
+    text-wrap: wrap;
+    padding: 0px 30px;
+}
+#subscribeButtonBar {
+    width: 674px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: white;
+    border-radius: 10px;
+}
+#subscribeButtonBar img {
+    width: 18.67px;
+    height: 16px;
+    z-index: 10;
+    
+}
+#subscribeButtonBar p {
+    font-size: 16px;
+    font-family: poppins;
+    z-index: 10;
+    border-radius: 10px;
+}
+#footer #email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 70;
+    gap: 20px;
+    padding: 20px;
+}
+#subscribeButton {
+    width: 132px;
+    height: 50px;
+    background-color: #FA7436;
+    color : white;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+#contentMiddle {
+    display: flex;
+
+}
+#firstBox {
+    width: 254px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+
+}
+#traBookImage {
+    display: flex;
+    flex-direction: column;
+}
+#trabookImage img {
+    width: 130px;
+    height: 24px;
+
+}
+#trabookImage p {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: medium;
+    text-wrap: wrap;
+    width: 254px;
+    height: 64px;
+}
+#smImages {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#smImages #fb {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+
+}
+#smImages #insta {
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+    
+}
+#smImages #twitter {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    
+}
+#secondBox {
+    width: 598px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#companyBox {
+    width: 140px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+
+}
+#contactBox {
+    width: 85px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#moreBox {
+    width: 113px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#secondBox p {
+    font-size: 18;
+    font-family: poppins;
+    padding: 10px;
+    
+}
+#companyBox #one {
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: semibold;
+}
+#contactBox #one {
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: semibold;
+    margin-top: -21px;
+}
+#moreBox #one {
+    font-size: 21px;
+    font-family: poppins;
+    font-weight: semibold;
+    margin-top: -30px;
+}
+#line {
+    width: 1170px;
+    height: 0px;
+    border: 1px solid #999999;
+}
+#copyRight {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+#copyRight p {
+    font-size: 16px;
+    font-family: poppins;
+}
